@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t yourusername/my-nginx:latest .
+      run: docker build -t nhkwardana30/newnginx:latest .
 
     - name: Push Docker image
-      run: docker push yourusername/my-nginx:latest
+      run: docker push nhkwardana30/newnginx:latest
